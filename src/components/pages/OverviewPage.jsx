@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import DashboardWrapper from "../DashBoardWrapper";
 import CardList from "../organisms/CardList";
 import Table from "../molecules/Table";
-import { useGetSWFilms } from "../../hooks/useSWQueries";
+import { useGetSWFilms } from "../../hooks/useSWQueries.js";
 import overViewPicture from "../../assets/overViewPicture.png";
 import Details from "../molecules/Details";
 import { defaultSelectedItem, verifySelectedStatus } from "../utils/helpers";

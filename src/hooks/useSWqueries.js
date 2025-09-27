@@ -1,8 +1,8 @@
-// src/queries/swQueries.js
+
 import { axiosAuth } from "../config/axios";
 import { useQuery } from "@tanstack/react-query";
 
-// 👉 Fetchers
+
 const getFilms = () => axiosAuth().get("/films");
 const getFilm = (id) => axiosAuth().get(`/films/${id}`);
 
@@ -15,7 +15,7 @@ const getStarship = (id) => axiosAuth().get(`/starships/${id}`);
 const getSpecies = () => axiosAuth().get("/species");
 const getSpecie = (id) => axiosAuth().get(`/species/${id}`);
 
-// 👉 React Query Hooks
+
 export const useGetSWFilms = () =>
     useQuery({ queryKey: ["films"], queryFn: getFilms });
 
