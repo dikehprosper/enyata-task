@@ -1,5 +1,4 @@
-
-import { axiosAuth } from "../config/axios";
+import { axiosAuth } from "../Config/axios";
 import { useQuery } from "@tanstack/react-query";
 
 
