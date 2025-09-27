@@ -9,4 +9,19 @@ font-family: "Inter";
     scroll-behavior: smooth;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: background-color 9999s ease-in-out 0s;
+  -webkit-text-fill-color: black !important;
+  box-shadow: 0 0 0px 1000px white inset;
+  caret-color: black; 
+}
 
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover,
+.dark input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white !important;
+  box-shadow: 0 0 0px 1000px black inset;
+  caret-color: white; 
+}
