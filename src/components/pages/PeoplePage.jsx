@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { useGetSWPeople } from "../../hooks/useSWQueries";
+import { useGetSWPeople } from "../../hooks/useSWqueries/";
 import DashboardWrapper from "../DashBoardWrapper";
 import Table from "../molecules/Table";
 import { defaultSelectedItem, verifySelectedStatus } from "../utils/helpers";
